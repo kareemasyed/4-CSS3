@@ -1,0 +1,25 @@
+<html>
+    <head>
+        <title>CSS3 animation</title>
+        <style>
+            .sdk{
+                margin: 50px;
+                width:120px;
+                height:128px;
+                background: url("ghost5.jpg") no-repeat;
+                position:relative;
+            animation:repeatit 3s linear 1s infinite alternate;
+            }
+            @keyframes repeatit{
+                from{left:0;}
+                to{left: 50%;}
+            }
+            body{
+                background-color: black;
+            }
+        </style>
+        </head>
+        <body>
+            <div class="sdk"></div>
+        </body>
+</html>
